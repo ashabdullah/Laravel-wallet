@@ -11,9 +11,9 @@ node {
     //  sh 'composer install'
    // }
     
-    stage("phpunit") {
+    //stage("phpunit") {
       // Run PHPUnit
-      sh 'vendor/bin/phpunit'
+     // sh 'vendor/bin/phpunit'
 
       // If this is the master or develop branch being built then run
       // additional integration tests
