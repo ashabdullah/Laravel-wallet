@@ -6,10 +6,10 @@ node {
       git branch: 'master', url: 'https://github.com/ashabdullah/Laravel-wallet.git'
     }
     
-    stage("composer_install") {
+   // stage("composer_install") {
       // Run `composer update` as a shell script
-      sh 'composer install'
-    }
+    //  sh 'composer install'
+   // }
     
     stage("phpunit") {
       // Run PHPUnit
